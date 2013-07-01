@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    padding:0;
+    line-height: 1.4em;
+    word-spacing:1px;
+    letter-spacing:0.2px;
+    font: 13px "Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+/*Table*/
+table table{width:100%;}
+table td,th{border:#000000 solid 1px;}
+
+/*Header*/
+h2 {color:#000; font-size:25px;}
+
+/* Links */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;}
+
+/*Image*/
+img, img a, .more-link a {border:none;}
+
+/*Remove Element*/
+#header,#headboard {display:none;}
+#ColLeftDouble, #ColRightTwo {display:none;}
+td.sentences {display:none;}
+
+/*Footer*/
+#footer {margin-top:10px;}
+
+/* WORDLIST */
+table.wordlist {
+    width:100%;
+}
+
+table.wordlist th {
+    background:#ededed;
+    text-align:center;
+}
+
+table.wordlist td {
+    border:#d9d9d9 1px solid;
+    vertical-align: top;
+}
+
+table.wordlist td.wordname {
+    font-weight: bold;
+}
+
+table.wordlist p {
+    font-size: 0.8em;
+}
