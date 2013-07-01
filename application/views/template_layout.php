@@ -319,7 +319,10 @@
                 <div class="textPlace">
                     <div class="wrapText">
                         <div class="gads" id="panelspace">
-                            <?php echo $this->load->view('google_adsense/google_adsense_snippet_code_01', '', true); ?>
+                            <?php
+                            if (@file_exists(APPPATH."views/google_adsense/google_adsense_snippet_code_01.php")){
+                                echo $this->load->view('google_adsense/google_adsense_snippet_code_01', '', true);
+                            } ?>
                         </div>
                     </div>
                 </div>
