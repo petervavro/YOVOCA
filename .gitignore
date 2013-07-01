@@ -11,3 +11,4 @@
 /application/config/yovoca.php
 /application/config/database.php
 /application/views/google_adsense/google_adsense_snippet_code_*.php
+/uploads/
