@@ -1,0 +1,10 @@
+INSTALLATION
+------------
+
+1. Download and unzip files or clone repository to your directory.
+2. Download CodeIgniter framework and copy all files and directories, except "application" directory.
+3. Create the database and import "/.SQL/database.yovoca.sql" file.
+4. Copy and rename all the files starting on "CHANGEME." e.g. "CHANGEME.yovoca.php" to "yovoca.php".
+5. Set up by filling up neccessary settings in these files.
+
+Please contact me for more informations.
