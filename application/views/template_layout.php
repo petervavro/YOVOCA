@@ -56,6 +56,7 @@
           </style>
         <![endif]-->
 
+        
     </head>
 
     <?php
@@ -69,7 +70,14 @@
 
     <body <?php echo isset($body_string) ? implode(' ', $body_string) : ''; ?> >
 
-    <?php echo $this->load->view('snippets/fb_initialization','',TRUE); ?>
+        <?php echo $this->load->view('snippets/google_analytics','',TRUE); ?>
+        <?php echo $this->load->view('snippets/fb_initialization','',TRUE); ?>
+
+        <div id="notice_top" >
+            <div class="container">
+                <p>YOVOCA is a open-source project and is hosted on <a href="http://github.com/petervavro/YOVOCA"><img src="./images/GitHub/Octocat_40x33.png" alt="GitHub" title="GitHub"/></a>.</p>
+            </div>
+        </div>
 
     <?php // BUSY SCREEN  ?> 
 
@@ -123,6 +131,7 @@
                     $lngform = form_open(uri_string(), $attributes, $hidden);
 
                     $lngform .= '<label>' . $this->lang->line('index_subslanguage_label') . '</label>' . show_language_select('userlang', $this->lang->lang(), $jstemp);
+
                     $lngform .= form_close();
 
                     // FB DATA

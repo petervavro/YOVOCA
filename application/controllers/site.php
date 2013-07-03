@@ -127,7 +127,7 @@ class Site extends CI_Controller {
                 }
             }
 
-            $allowed_languages = $this->config->item('languages');
+            $allowed_languages = $this->lang->languages;
 
             if ((isset($allowed_languages[$language_code]))) {
 

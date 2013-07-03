@@ -76,7 +76,7 @@ if (!function_exists('_render_img_tag')) {
 }
 
 // get array of available languages
-$_lang_avail = $this->config->item('languages');
+$_lang_avail = $this->lang->languages;
 
 if ($_lang_avail !== false) {
 
