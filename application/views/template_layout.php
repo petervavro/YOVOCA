@@ -337,7 +337,7 @@
                 </div>
             </div>    
             <div id="footer">
-                <span>Copyright© 2010 Peter Vavro / admin(at)yovoca(dot)com</span>
+                <span>Copyright©&nbsp;2010-<?php echo date("Y"); ?>&nbsp;Peter&nbsp;Vavro&nbsp;</span>
                 <span>/ CI:<?php echo CI_VERSION; ?></span>
                 <?php // echo ' - '.nbs(1).mailto('admin(at)yovoca(dot)com', 'Contact Me');?>
                 <p><?php // echo $this->benchmark->elapsed_time();?></p>
