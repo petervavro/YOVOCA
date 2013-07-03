@@ -337,8 +337,15 @@
                 </div>
             </div>    
             <div id="footer">
-                <span>Copyright©&nbsp;2010-<?php echo date("Y"); ?>&nbsp;Peter&nbsp;Vavro&nbsp;</span>
-                <span>/ CI:<?php echo CI_VERSION; ?></span>
+                <p>
+                    Copyright©&nbsp;2010-<?php echo date("Y"); ?>&nbsp;Peter&nbsp;Vavro&nbsp;
+                    <!-- Place this code where you want the badge to render. -->
+                    <a href="//plus.google.com/108205519239751032988?prsrc=3"
+                       rel="publisher" target="_top" style="text-decoration:none;">
+                    <img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/>
+                    </a>
+                    / CI:<?php echo CI_VERSION; ?>
+                </p>
                 <?php // echo ' - '.nbs(1).mailto('admin(at)yovoca(dot)com', 'Contact Me');?>
                 <p><?php // echo $this->benchmark->elapsed_time();?></p>
             </div>
